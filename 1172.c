@@ -10,19 +10,18 @@
 int main(){
   setlocale(LC_ALL, "portuguese");
   
-	int x[10];
-	int i;
+int x[10];
+int i;
 
-	for(i = 0; i < 10; i ++){
-	  scanf("%d", &x[i]);
-	}
+ for(i = 0; i < 10; i ++){
+  scanf("%d", &x[i]);
+ }
   
-  for(i = 0; i < 10; i++){
-	  if(x[i] <= 0){
-	    printf("X[%d] = %d\n", i, 1);
-	  }else{
-	    printf("X[%d] = %d\n", i, x[i]);
+ for(i = 0; i < 10; i++){
+  if(x[i] <= 0){
+    printf("X[%d] = %d\n", i, 1);
+   }else{
+    printf("X[%d] = %d\n", i, x[i]);
      }
-  }
-
+ }
 } 
